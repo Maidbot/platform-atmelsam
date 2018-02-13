@@ -17,7 +17,35 @@
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "https://sourceforge.net/projects/platformio-storage/files/packages/manifest.json/download",
     "http://dl.platformio.org/packages/manifest.json",
-    "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json"
+    "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
+    {
+      "toolchain-gccarmnoneeabi": [
+        {
+          "sha1": "7db146afe64c6f9cc3bec59531f4b3fd090e6475",
+          "system": [
+            "linux_armv6l",
+            "linux_armv7l",
+            "linux_armv8l",
+            "linux_aarch64"
+          ],
+          "url": "http://dl.platformio.org/packages/toolchain-gccarmnoneeabi-linux_armv6l-1.40803.0.tar.gz",
+          "version": "1.40803.0"
+        }
+      ],
+      "tool-bossac": [
+        {
+          "sha1": "fcd1cab363b9c9c2fbc79c4103a1a313caf1ce08",
+          "system": [
+            "linux_armv6l",
+            "linux_armv7l",
+            "linux_armv8l",
+            "linux_aarch64"
+          ],
+          "url": "http://dl.platformio.org/packages/tool-bossac-linux_armv6l-1.10700.0.tar.gz",
+          "version": "1.10700.0"
+        }
+      ]
+    }
   ],
   "frameworks": {
     "arduino": {
